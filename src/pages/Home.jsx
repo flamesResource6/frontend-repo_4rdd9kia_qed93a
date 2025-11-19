@@ -2,10 +2,12 @@ import NavBar from '../components/NavBar'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
+import BackgroundFX from '../components/BackgroundFX'
 
 export default function Home(){
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+    <div className="relative min-h-screen bg-slate-950 text-white">
+      <BackgroundFX />
       <NavBar />
       <Hero />
       <Features />
